@@ -36,6 +36,7 @@ box model
 ## Box Model
 - margin
 - padding
+- negative padding
 
 ## FlexBox
 - what is flexbox?
@@ -43,7 +44,7 @@ box model
 - creating layouts with flexbox
     - row vs column
     - row-reverse
-    - jsutify content
+    - justify content
     - align items
 - item properties
     - flex grow

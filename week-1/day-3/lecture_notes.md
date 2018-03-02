@@ -3,7 +3,7 @@
 - Responsive Web, Mobile First design
 - Media Queries
 
-# Day 1
+# Day 3
 
 ## How to break down websites
 - find boxes & containers
