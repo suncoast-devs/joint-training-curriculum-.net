@@ -10,7 +10,7 @@ This repository contains the Cirriculum for the PROforma Cohort used by [The Sun
 
 ## Milesstones and Highlevel Schedule
 
-### Week 1
+### Week 1 (HTML & CSS)
     - Html
     - CSS
         - styling
@@ -19,5 +19,14 @@ This repository contains the Cirriculum for the PROforma Cohort used by [The Sun
     - Responsive design
     - CSS Debugging
     - Media Queries
-
-    
+### Week 2 (JavaScript and Algorithms)
+### Week 3 (APIs, Data strucure and Algorithms)
+### Week 4 (Front End Build Processes, Angular)
+### Week 5 (Final Wrap up of Front End)
+### Week 6 (Intro to C#  & OOP)
+### Week 7 (Data! Data! Data!)
+### Week 8 (Entity Framework, ASP.NET Simple Websites)
+### Week 9 (Building APIs)  * Final Projects start
+### Week 10 (APIs and Angular)
+### Week 11 (Applied Practice and team integration)
+### Week 12 (Wrap up and team)
