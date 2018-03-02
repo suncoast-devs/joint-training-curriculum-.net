@@ -8,12 +8,6 @@ In your first assignment you will end up with a web page, no matter how simple, 
 - Introduce yourself to working on the command line.
 - Publish a web page.
 
-## Requirements
-
-- First, read [this short article](http://blog.froont.com/brief-history-of-web-design-for-designers/) on the history of web design.
-- Compose a short essay (just a couple paragraphs at most) that summarizes your thoughts on the web; where's it's been, and where it's going.
-- **Note**: You should complete at least the tasks given for _explorer_ mode as listed below before turning in the assignment, as well as before attempting _adventure_ or _epic_ modes.
-
 ### Setup
 
 - First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, you only need to do it once:
@@ -55,25 +49,37 @@ In your first assignment you will end up with a web page, no matter how simple, 
 
 ### Explorer Mode
 
-- Follow all of the setup instructions.
-- All of your HTML (and CSS if you do *Adventure Mode*) should be formatted cleanly and consistently. Remember to check the appearance in your browser as well!
-- Spend some more time getting to know your terminal and text editor. Try finding some color schemes you like online and installing them.
+- [ ] Follow all of the setup instructions.
+- [ ] Read [this short article](http://blog.froont.com/brief-history-of-web-design-for-designers/) on the history of web design.
+- [ ] Compose a short essay (just a couple paragraphs at most) that summarizes your thoughts on the web; where's it's been, and where it's going.
+- [ ] Put your short essay into an HTML page, using the appropriate HTML tags. Give your webpage a header and a footer as well
+- [ ] Deploy your site to sure
+
+- **Note**: You should complete at least the tasks given for _explorer_ mode as listed below before turning in the assignment, as well as before attempting _adventure_ or _epic_ modes.
+
+- **Note**:  All of your HTML (and CSS if you do *Adventure Mode*) should be formatted cleanly and consistently (use your editor to your advantage). 
+
+- **Note**: Remember to check the appearance in your browser as well! Fast feedback of your code will help you create sites faster. 
+
+
+- **PROTIP**:  Spend some more time getting to know your terminal and text editor. Try finding some color schemes or plugins you like online and installing them. _warning_ Though customization is great way to be productive and feel good on your dev machine, **do not go overboard**. If you have too many extensions, and they are getting in the way of you coding, then I will have you uninstall them. If you color scheme is hurts my eyes, I will have you change it before I help you
 
 
 ### Adventure Mode
 
-- Research the `id` and `class` HTML attributes.
-- Use valid CSS to style the page (in the neighborhood of a couple dozen CSS declarations).
-- Use at least one image somewhere on the page (like the screen shot of your terminal if you do *Epic Mode*, or anything else you see fit).
+- [ ] Research the `id` and `class` HTML attributes.
+- [ ] Use valid CSS to style the page (in the neighborhood of a couple dozen CSS declarations).
+- [ ] Use at least one image somewhere on the page (like the screen shot of your terminal if you do *Epic Mode*, or anything else you see fit).
 
 ### Epic Mode
 
-- Create a full layout for your page (heading, navigation, sidebar, footer, etc.).
-- Use more complex CSS selectors than we covered in class.
+- [ ] Create a full layout for your page (heading, navigation, sidebar, footer, etc.).
+- [ ] Use more complex CSS selectors than we covered in class.
 
-## Turning In (need to refine)
+## Turning In
 
-<!-- 
+Your homework will be assigned to you via `issues` on your `assignments` repository. Once you are
+
 These steps will be followed for almost every assignment going forward. Once you've completed at least _explorer_ mode and you're satisfied with your work, let's get it published. First let's get it up on GitHub.
 
 - First, let's add all our work to git, and ask it to commit it:
@@ -99,9 +105,10 @@ These steps will be followed for almost every assignment going forward. Once you
   yarn deploy
   ```
 
-- Turn in the URL to your repository on GitHub in newline. It should look like:
+Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
 
-  > `https://github.com/USERNAME/hello-world` -->
+
+
 
 ## Additional Resources
 

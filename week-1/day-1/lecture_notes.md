@@ -13,14 +13,19 @@
 
 # Day 1
 
-## Welcome
-- Introduce myself
+## Basic classroom rules, 
+- questions during class encouraged
+- Rule of 20
+    on your for 20 mins, 
+    the ask a friend, 
+    then come find me
+- to code along or not?
 
-## Name game, 
-Intro each other
+## Who Am I?
 
-## Basic, how the internet works
+## Basic, how code and the internet works
 
+- basics of how programs work
 - request to server, 
 - server responses with html
 
@@ -28,11 +33,9 @@ Intro each other
 
 - powershell 
 - vs code
-
-## break 
+- `app-app`
 
 ## lets do some html
-- `app-app` 
 - walk through simple html tags
     - html
     - head
@@ -40,18 +43,6 @@ Intro each other
     - section 
     - div
 
-## dev tools (part 2)
-
-- git
-- surge
-
-## Activity and day project
-
-- set up dev env
-- get hello-world up on surge
-lec
-
-## Review session
 - how to break down a website 
 - more html tags
     - p
@@ -63,5 +54,23 @@ lec
     - semantic html & html5
     - nav
 
+## dev tools (part 2)
+
+- git
+- surge
+
+## Activity and day project
+
+- set up dev env
+- get hello-world up on surge
+
+
+## Homework
+
+- create an assignments repository, 
+- make me an admin 
+- each homework will be an issue. 
+- to turn in an assignment, you have to close the issues
+- homework is due at midnight, get your rest
 
     
