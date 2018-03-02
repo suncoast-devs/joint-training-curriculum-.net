@@ -101,3 +101,9 @@ These steps will be followed for almost every assignment going forward. Once you
   ```
 
 Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
+
+
+## Reading Material
+
+To prepare for tomorrow's topic, watch this video: 
+https://www.youtube.com/watch?v=2KL-z9A56SQ
