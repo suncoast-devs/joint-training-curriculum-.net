@@ -107,9 +107,10 @@ These steps will be followed for almost every assignment going forward. Once you
 
   > `https://github.com/USERNAME/PROJECT`
 
-## Additional Resources
 
-- https://developer.mozilla.org/en-US/docs/Web/CSS
-- http://flexboxin5.com
-- http://flexboxfroggy.com
-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+## Reading Material
+
+To Help prepare for tomorrow's topic, watch this video series: 
+
+
+https://www.youtube.com/watch?v=sewV3LsmoXI

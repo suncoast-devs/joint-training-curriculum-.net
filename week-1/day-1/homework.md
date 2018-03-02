@@ -120,3 +120,10 @@ Once you are completely, go to the issue on our `assignments` repository, leave 
 - [Jason's Terminal Theme - One Dark - Matches the Atom theme of the same name](https://github.com/nathanbuchar/atom-one-dark-terminal)
 - [Mac Basics](https://www.apple.com/support/macbasics/)
 - [Mouse versus Command Line](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+
+
+## Reading Material
+
+To prep for tomorrow's lesson, read through this
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS
