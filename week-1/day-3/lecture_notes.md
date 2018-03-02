@@ -10,6 +10,8 @@
 - do not div happy
 - keep it semantic and minimal
 
+
+
 ## DEMO: pick a random site
 - break it down on the whiteboard together
 
@@ -19,7 +21,6 @@
 
 
 ## Media Query
-
 - what are media queries
 - why use media queries
 - how to use media queries
