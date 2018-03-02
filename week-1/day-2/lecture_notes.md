@@ -32,6 +32,7 @@ box model
 - em vs px
 - selectors
     - hover
+- Fonts!
 
 ## Box Model
 - margin
