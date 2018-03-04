@@ -1,11 +1,11 @@
 # Required Dev tools 
 
-Over the course the training you will be using a variety of tools. To get start we ned the follow software and tools
+Over the course the training you will be using a variety of tools. To get started we need the follow software and tools
 
 
 ## Tools
 
-### Node
+### Node.js
 
 #### What
 
@@ -21,10 +21,8 @@ Run the installer here:
 <br/>
 [https://nodejs.org/en/](https://nodejs.org/en/)
  
-```
-```
 
-- Yarn
+### Yarn
 
 #### What
 
@@ -32,7 +30,7 @@ Yarn is a package manager for node packages. This means that we can install and 
 
 #### Why
 
-We will be using this to run our scripts and as well as installing needed packages. THis will be more useful as we continue deeper in JavaScript
+We will be using this to run our scripts and as well as installing packages. This will be more useful the more we dive deeper in JavaScript
 
 #### How
 
@@ -61,11 +59,11 @@ npm install --global surge
 
 ```
 
-### git
+### Git
 
 #### What 
 
-Git is a distributed source control system. This allows us work and collaborate on different projects with little to no headache.
+Git is a distributed source control system. This allows us to work on and collaborate on different projects with little to no headache.
 
 #### Why
 
@@ -81,7 +79,31 @@ NOTES:
     - It will ask you about your path variable, I recommend selecting the third option `use git and optional unix tools`. This will allow git to be used in your terminal
     
 
-### posh git
+### Hub
+
+#### What
+ Hub is command line helper for github. It allows for easy github manipulation from powershell.
+
+#### How
+Download and run this installer: 
+[https://github.com/github/hub/releases/download/v2.3.0-pre9/hub-windows-amd64-2.3.0-pre9.zip](https://github.com/github/hub/releases/download/v2.3.0-pre9/hub-windows-amd64-2.3.0-pre9.zip)
+
+### VS Code
+
+#### What 
+VS Code is a light weight text editor that produced by Microsoft that is being widely adopted by many developers. 
+
+#### Why
+
+Even though we will end our journey together with Visual Studio, We we be starting with something a bit less overwhelming. VS Code is a lightweight editor that allows us to see what is going on so when we get the more powerful tools (like Visual Studio). It will not be a crutch, but a tool. This is like starting with a screwdriver, and working our way up to power drill. 
+
+#### How
+Download here: 
+
+(https://code.visualstudio.com/)[https://code.visualstudio.com/]
+
+
+### Posh-git
 
 #### What 
 
@@ -101,29 +123,6 @@ to move on, you should be able to run `Import-Module posh-git` in a git repo and
 - save and close file
 - restart powershell
 
-
-### hub
-
-#### What
- Hub is command line helper for github. It allows for easy github manipulation from powershell.
-
-#### How
-Download and run this installer: 
-[https://github.com/github/hub/releases/download/v2.3.0-pre9/hub-windows-amd64-2.3.0-pre9.zip](https://github.com/github/hub/releases/download/v2.3.0-pre9/hub-windows-amd64-2.3.0-pre9.zip)
-
-### VS CODE
-
-#### What 
-VS Code is a light weight text editor that produced by Microsoft that is being widely adopted by many developers. 
-
-#### Why
-
-Even though we will end our journey together with Visual Studio, We we be starting with something a bit less overwhelming. VS Code is a lightweight editor that allows us to see what is going on so when we get the more powerful tools (like Visual Studio). It will not be a crutch, but a tool. This is like starting with a screwdriver, and working our way up to power drill. 
-
-#### How
-Download here: 
-
-(https://code.visualstudio.com/)[https://code.visualstudio.com/]
 
 
 ### Slack 
