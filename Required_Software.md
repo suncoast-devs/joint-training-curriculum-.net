@@ -124,3 +124,12 @@ Even though we will end our journey together with Visual Studio, We we be starti
 Download here: 
 
 (https://code.visualstudio.com/)[https://code.visualstudio.com/]
+
+
+### Slack 
+
+#### What
+Slack will be our main form of communication. Download it to you computer and, if you have a smart phone, I highly recommend installing the app
+
+#### How: 
+For your computer, go here: (https://slack.com/downloads/windows)[https://slack.com/downloads/windows]
