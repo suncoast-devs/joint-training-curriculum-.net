@@ -10,7 +10,7 @@ A User should be able to update a score and the teams playing.
 ### Explorer Mode
 
 Should resemble this: 
-![markup](https://github.com/suncoast-devs/joint-training-curriculum-.net/raw/master/week-2/day-1/assests/scoreboard-day-1.PNG#1)
+![markup](https://github.com/suncoast-devs/joint-training-curriculum-.net/raw/master/week-2/day-1/assests/scoreboard-day-1.buttons.PNG#1)
 
 
 - [ ] implement the basic HTML
