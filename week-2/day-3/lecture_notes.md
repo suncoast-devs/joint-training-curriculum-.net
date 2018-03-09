@@ -4,13 +4,12 @@
 - Objects
 - functions
 - abstraction
+- testing
 
 # Day 2.3
 
-## topic breakdown A
-## topic breakdown B
-## topic breakdown C
-## topic breakdown D
+refactor a weeks project to use functions and/or objects
 
+or
 
-    
+????

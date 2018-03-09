@@ -1,6 +1,6 @@
 # Title
 
-Rock Papers Scissors
+Create a simple Tic tac toe game for two players
 
 
 ## Objectives

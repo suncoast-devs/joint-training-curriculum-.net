@@ -1,9 +1,6 @@
 # Title
 
-
-Tic tac toe. 
-
-Create a simple 2 player tic tac toe
+https://github.com/tiy-tpa-fee/function-junction
 
 ## Objectives
 
