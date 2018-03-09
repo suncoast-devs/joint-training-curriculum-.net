@@ -1,6 +1,6 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-This repository contains the Cirriculum for the PROforma Cohort used by [The Suncoast Developers Guild](http://suncoast.io).
+This repository contains the Curriculum for joint training for .NET used by [The Suncoast Developers Guild](http://suncoast.io).
 
 
 ## How this repo is broken down
@@ -19,7 +19,14 @@ This repository contains the Cirriculum for the PROforma Cohort used by [The Sun
     - Responsive design
     - CSS Debugging
     - Media Queries
+
 ### Week 2 (JavaScript and Algorithms)
+    - DOM
+    - HTML manipuluaton
+    - Basic JavaScripts
+    - Control Flow
+    - JavaScript Debugging
+
 ### Week 3 (APIs, Data strucure and Algorithms)
 ### Week 4 (Front End Build Processes, Angular)
 ### Week 5 (Final Wrap up of Front End)

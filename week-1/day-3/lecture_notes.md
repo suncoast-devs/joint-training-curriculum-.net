@@ -10,8 +10,6 @@
 - do not div happy
 - keep it semantic and minimal
 
-
-
 ## DEMO: pick a random site
 - break it down on the whiteboard together
 
