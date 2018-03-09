@@ -1,9 +1,6 @@
 # Title
 
-basic grade book....?
-
-
-enter a students name, a score, add it to a table
+Rock Papers Scissors
 
 
 ## Objectives
