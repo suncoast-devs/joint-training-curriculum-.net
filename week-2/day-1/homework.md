@@ -14,7 +14,7 @@ Should resemble this:
 
 
 - [ ] implement the basic HTML
-- [ ] implement the basic styling
+- [ ] implement the basic formating. Do not worry about styling (colors and fonts and the like)
 - [ ] add click events to the `update` buttons to update the corresponding values on the page. The score buttons should adjust the current score by a "hard coded" value
 
 
