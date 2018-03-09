@@ -32,7 +32,7 @@ Should resemble this:
 - [ ] Save/load the information to local storage
 - [ ] Add CSS to the winning teams score to indicate who is currently winning
 - [ ] add anythign else that your sport would have on its score board (fouls, sacks, shots on goal, etc);
-- [ ]
+
 
 ## Turning In
 
