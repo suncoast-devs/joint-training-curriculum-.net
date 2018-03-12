@@ -18,10 +18,10 @@
     - script tag
     - file
 
-EX: lets create a simple javascript file that prints stuff out the console
 
 ## JS 
 - how does code get exitcuted
+EX: lets create a simple javascript file that prints stuff out the console
 
 - varibles
     - let 
