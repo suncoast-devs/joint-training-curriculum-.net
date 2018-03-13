@@ -1,61 +1,43 @@
 # Title
 
-https://github.com/tiy-tpa-fee/function-junction
+# Function Junction
 
 ## Objectives
 
-### Setup
+After completing this assignment, you should be able to:
 
-- First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, *you only need to install `app-app` once* :
+* Demonstrate understanding of types, functions, argument-handling, loops, and conditional statements
 
-  ```sh
-  npm install -g app-app
-  ```
+## Instructions
 
-  Also, set up hub to use `HTTPS` rather than `SSH` for repositories:
+1. Fork [this repository](https://github.com/mdewey/function-junction) to your own account.
+2. Change into your training directory
+3. Clone your repository: `hub clone function-junction`
+4. Change into your project's directory: `cd function-junction`
+5. Install the dependencies: `yarn install` (or just `yarn` for short)
+6. Open in Code: `code .`
+7. Start the test runner: `yarn test`
+7. Open `src/functions.test.js` and work on functions until tests pass.
+8. Commit and push your work to GitHub.
+9. Turn in the URL to your GitHub repo.
 
-  ```sh
-  git config --global hub.protocol https
-  ```
+## Explorer Mode
 
-- Open your Terminal and create and change into the project's directory:
+- All tests passing
+- No linter warnings
+- Turn in the homework using the URL to your repository on Github.
 
-  ```sh
-  mkdir -p ~/training/week-1/day-1/hello-world
-  cd ~/training/week-1/day-1/hello-world
-  ```
+## Adventure Mode
 
-- Run the generator to create a boilerplate project:
+- If you used "built-in" JavaScript methods like `String.reverse()` or `Array.max()` to solve these problems, try implementing them from scratch.
+- Vice-versa: if you implemented your solutions from scratch, look in the documentation linked below to see if JavaScript has any built-in functions to help solve these problems.
 
-  ```sh
-  app-app --alpha --vscode
-  ```
+## Additional Resources
 
-  Answer "Yes" to the questions about GitHub and Yarn.
+Reference the documentation on MDN to find what kind of helpful functions might already be on `Array` and `String` in JavaScript.
 
-- Open the project folder in VS Code:
-
-  ```sh
-  code .
-  ```
-
-  Remember `.` is an alias for the current directory.
-
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
-
-### Explorer Mode
-
-- [ ] this is a requirement
-
-
-### Adventure Mode
-
-- [ ] this is a requirement
-
-
-### Epic Mode
-
-- [ ] this is a requirement
+- [String Functions on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+- [Array Functions on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 ## Turning In
 

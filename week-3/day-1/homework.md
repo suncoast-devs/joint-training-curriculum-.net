@@ -1,29 +1,28 @@
-# Rock-Paper-Scissors
+# Tic tac toe
 
-Create a simple Rock-Paper-Scissors  game
+Create a simple Tic tac toe game for two players
+ 
 
 ## Objectives
 
 ### Explorer Mode
 
-- [ ] As a user I should be able to see three buttons for each player
-- [ ] as a user, I should be able to pick an option for each player
-- [ ] As a user,after each player makes their selection, I should be told who won and the game should be over 
+- [ ] As a user I should be able to see a tic tac toe board
+- [ ] as a user, the game should alternate turns
+- [ ] As a user, i should be able to click in a square and play either `X` or `O` depending on whose turn it is
+- [ ] As a user, when I get three in a row, I should be told i won and the game should be over 
 
 
 ### Adventure Mode
 
-
-- [ ] Create a `vs computer` mode, that picks a selection
+- [ ] Create a `vs computer` mode, that picks a random square
 - [ ] Modify your `vs computer` mode to follow a specific strategy (your choice) 
-- [ ] Make your computer AI unbeatable
-- [ ] Give the user a choice to player against the various computer levels or another player
 - [ ] Have fun with the CSS by adding colors, animations and effects to make the game more enjoyable
 
 
 ### Epic Mode
 
-- [ ] Your game is currently only 1 vs 1, add the ability to add more computer players to the game
+- [ ] Using a Min-max tree, make your computer AI unbeatable
 
 ## Turning In
 
