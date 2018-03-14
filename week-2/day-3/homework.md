@@ -32,6 +32,12 @@ After completing this assignment, you should be able to:
 - If you used "built-in" JavaScript methods like `String.reverse()` or `Array.max()` to solve these problems, try implementing them from scratch.
 - Vice-versa: if you implemented your solutions from scratch, look in the documentation linked below to see if JavaScript has any built-in functions to help solve these problems.
 
+## Epic Mode
+
+- Expand the `sum` and `max` functions to take arrays instead of numbers and update the tests so they pass
+- Create your own simple functions with tests
+- Anytime in your code that you used a `for` loop or a `while` loop, convert it to use a `map`, `filter` or `reduce`
+
 ## Additional Resources
 
 Reference the documentation on MDN to find what kind of helpful functions might already be on `Array` and `String` in JavaScript.
