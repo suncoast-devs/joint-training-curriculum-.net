@@ -1,61 +1,24 @@
-# Tic tac toe
+# Catch your Breathe
 
-Create a simple Tic tac toe game for two players
+We have been going a fast pace for the past couple of week. Every so often, you need to reflect on how far you have come.
  
+For tonight, we are going to take a little code break and create a blog post. Blog posts are a good way to reflect on what you have done and also share some knowledge. The best way to get better at talking about technology is practice. Blog posts are a way to practice that skill. 
 
 ## Objectives
 
 ### Explorer Mode
 
-- [ ] As a user I should be able to see a tic tac toe board
-- [ ] as a user, the game should alternate turns
-- [ ] As a user, i should be able to click in a square and play either `X` or `O` depending on whose turn it is
-- [ ] As a user, when I get three in a row, I should be told i won and the game should be over 
-
+- [ ] On medium.com(https://medium.com/), create a blog post that talks about a concept we have went over in class. This could anything  topic from HTML, CSS or JavaScript. Or it could be a lesson that learn from the past couple of weeks. All I am looking for a developer focused blog post. 
+- [ ] to turn this in, submit to me, via the github issue, the link to the blog post
 
 ### Adventure Mode
 
-- [ ] Create a `vs computer` mode, that picks a random square
-- [ ] Modify your `vs computer` mode to follow a specific strategy (your choice) 
-- [ ] Have fun with the CSS by adding colors, animations and effects to make the game more enjoyable
-
+- [ ] As we progress, we will be using different tools to work our brain. Today, head over to hackerrank.com (https://www.hackerrank.com/). This is another tool, like codewars to practice our developer skills. As a start, head into the algorithms section, and try this one: https://www.hackerrank.com/challenges/grading/problem. 
+- [ ] To turn this, create a gist (gist.github.com) of your code and put it on this issue
 
 ### Epic Mode
 
-- [ ] Using a Min-max tree, make your computer AI unbeatable
+- [ ] Go back and finish up any oustanding work. 
+- [ ] Go back to an old assignment and work on it some more. This could trying to tackle a harder level. Or going back and working on the UI/UX of an assignment, refactor the code to a new idea that we covered (EX: functions and abstractions) or adding unit tests to a something 
+- [ ] to turn this, put the github repo here, and tell me about what you did.
 
-## Turning In
-
-Your homework will be assigned to you via `issues` on your `assignments` repository. Once you are
-
-These steps will be followed for almost every assignment going forward. Once you've completed at least _explorer_ mode and you're satisfied with your work, let's get it published. First let's get it up on GitHub.
-
-- First, let's add all our work to git, and ask it to commit it:
-
-  ```sh
-  git add .
-  git commit -m "My first webpage"
-  ```
-
-  Feel free to replace _"My first webpage"_ with a more meaningful message.
-
-- Push our local commits to GitHub:
-
-  ```sh
-  git push -u origin master
-  ```
-
-  The `-u` option tells git we want to making pushing the `master` branch to `origin` the default, so next time, we can just type `git push`.
-
-- Now that our source code is up on GitHub, let's publish our page to [Surge](https://surge.sh). The command to do this has already been setup for you:
-
-  ```sh
-  yarn deploy
-  ```
-
-Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
-
-
-
-
-## Additional Resources

@@ -78,5 +78,3 @@ Once you are completely, go to the issue on our `assignments` repository, leave 
 
 
 
-
-## Additional Resources
