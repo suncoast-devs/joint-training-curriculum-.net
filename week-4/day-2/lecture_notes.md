@@ -1,8 +1,8 @@
 [TOPICS]
-- Topic A
-- Topic B
-- Topic C
-- Topic D
+- dependancy injection
+- $http 
+- templates
+- how to give a tech talk 
 
 # Day 1
 

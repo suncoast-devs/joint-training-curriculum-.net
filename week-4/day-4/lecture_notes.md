@@ -4,7 +4,11 @@
 - Topic C
 - Topic D
 
-# Day 1
+# Day 4.4
+- Webpack??
+- angular js questions
+- angular routing
+
 
 ## topic breakdown A
 ## topic breakdown B

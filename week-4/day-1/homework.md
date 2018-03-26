@@ -1,61 +1,38 @@
-# Title
+# Score Board, take 2!
 
-{description}
+For this assignment you will re-create you scoreboard using angularjs a simple interactive score board for your favorite sport.
+
+A User should be able to update a score and the teams playing. 
+
 
 ## Objectives
 
-### Setup
-
-- First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, *you only need to install `app-app` once* :
-
-  ```sh
-  npm install -g app-app
-  ```
-
-  Also, set up hub to use `HTTPS` rather than `SSH` for repositories:
-
-  ```sh
-  git config --global hub.protocol https
-  ```
-
-- Open your Terminal and create and change into the project's directory:
-
-  ```sh
-  mkdir -p ~/training/week-1/day-1/hello-world
-  cd ~/training/week-1/day-1/hello-world
-  ```
-
-- Run the generator to create a boilerplate project:
-
-  ```sh
-  app-app --alpha --vscode
-  ```
-
-  Answer "Yes" to the questions about GitHub and Yarn.
-
-- Open the project folder in VS Code:
-
-  ```sh
-  code .
-  ```
-
-  Remember `.` is an alias for the current directory.
-
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
-
 ### Explorer Mode
 
-- [ ] this is a requirement
+Should resemble this: 
+![markup](https://github.com/suncoast-devs/joint-training-curriculum-.net/raw/master/week-2/day-1/assests/scoreboard-day-1.buttons.PNG#1)
+
+
+- [ ] implement the basic HTML
+- [ ] implement the basic formating. Do not worry about styling (colors and fonts and the like)
+- [ ] add ng-click events to the `update` buttons to update the corresponding values on the page. The score buttons should adjust the current score by a "hard coded" value
+
 
 
 ### Adventure Mode
-
-- [ ] this is a requirement
-
+- [ ] work on your hack-a-thon projects
+- [ ] Complete Explorer Mode
+- [ ] Implement a Quarter/Period Tracker that would be appropriate for the sport
+- [ ] Add some custom CSS to make it more colorful. Have fun with it
+- [ ] Make the layout responsive
 
 ### Epic Mode
 
-- [ ] this is a requirement
+- [ ] Add a Timer that counts down automatically and updates the period/quarter appropriately 
+- [ ] Save/load the information to local storage
+- [ ] Add CSS to the winning teams score to indicate who is currently winning
+- [ ] add anythign else that your sport would have on its score board (fouls, sacks, shots on goal, etc);
+
 
 ## Turning In
 
@@ -87,8 +64,3 @@ These steps will be followed for almost every assignment going forward. Once you
   ```
 
 Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
-
-
-
-
-## Additional Resources

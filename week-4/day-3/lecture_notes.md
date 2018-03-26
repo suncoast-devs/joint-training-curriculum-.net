@@ -1,8 +1,6 @@
-[TOPICS]
-- Topic A
-- Topic B
-- Topic C
-- Topic D
+- services
+- filters
+- Practice talks
 
 # Day 1
 

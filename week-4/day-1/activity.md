@@ -1,4 +1,4 @@
-[Learning Objectives] {some learning objectives}
+[Learning Objectives] simple node server
 
 
 ## Title

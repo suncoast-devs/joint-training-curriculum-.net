@@ -1,15 +1,15 @@
-[TOPICS]
-- Topic A
-- Topic B
-- Topic C
-- Topic D
+Intro to Angular
+CDN
 
-# Day 1
+# Day 4.1
+- ng-app
+- ng-controller
+- ng-repeat
+- ng-click
+- ng-show
+- ng-hide
+- textboxes
 
-## topic breakdown A
-## topic breakdown B
-## topic breakdown C
-## topic breakdown D
-
+- create a simepl website th
 
     

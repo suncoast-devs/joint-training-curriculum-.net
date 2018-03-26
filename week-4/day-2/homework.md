@@ -1,47 +1,9 @@
 # Title
 
-{description}
+Some API Project
 
 ## Objectives
 
-### Setup
-
-- First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, *you only need to install `app-app` once* :
-
-  ```sh
-  npm install -g app-app
-  ```
-
-  Also, set up hub to use `HTTPS` rather than `SSH` for repositories:
-
-  ```sh
-  git config --global hub.protocol https
-  ```
-
-- Open your Terminal and create and change into the project's directory:
-
-  ```sh
-  mkdir -p ~/training/week-1/day-1/hello-world
-  cd ~/training/week-1/day-1/hello-world
-  ```
-
-- Run the generator to create a boilerplate project:
-
-  ```sh
-  app-app --alpha --vscode
-  ```
-
-  Answer "Yes" to the questions about GitHub and Yarn.
-
-- Open the project folder in VS Code:
-
-  ```sh
-  code .
-  ```
-
-  Remember `.` is an alias for the current directory.
-
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
 
 ### Explorer Mode
 
