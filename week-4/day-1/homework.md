@@ -2,6 +2,9 @@
 
 For this assignment you will re-create you scoreboard using angularjs a simple interactive score board for your favorite sport.
 
+Check out the sample projects here: 
+https://github.com/PROforma-Cohort/Lecture-Examples/tree/master/week-4/day-1
+
 A User should be able to update a score and the teams playing. 
 
 

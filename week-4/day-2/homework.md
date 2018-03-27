@@ -1,23 +1,21 @@
-# Title
+# Top Artists
 
-Some API Project
+Using the API located here https://www.last.fm/api/show/chart.getTopArtists (you need to make an account with last.fm to get your access key) Create me a page that displays the top artists using angularjs. 
 
 ## Objectives
+- Work more with angular
+- Work more with APIs
 
 
 ### Explorer Mode
 
-- [ ] this is a requirement
-
+- [ ] Create a simple UI that displays the top 50 artist from the Last.fm API. 
+- [ ] Create and user a template file for an artist. This template should display the picture that came with the artist, the artist name, as well as the playcount and listencount (its all in the data, trust me)
+- [ ] Give it basic styling, but dont go crazy, you have a hackathon to work on
 
 ### Adventure Mode
+- [ ] Work on your hack-a-thon project 
 
-- [ ] this is a requirement
-
-
-### Epic Mode
-
-- [ ] this is a requirement
 
 ## Turning In
 
@@ -50,7 +48,3 @@ These steps will be followed for almost every assignment going forward. Once you
 
 Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
 
-
-
-
-## Additional Resources
