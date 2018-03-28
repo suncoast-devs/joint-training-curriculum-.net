@@ -1,61 +1,27 @@
-# Title
+# Geopardy
 
-{description}
+Using this service for your data, http://jservice.io/, build a Jeopardy clone called Geopardy. First we will build the board and a one player game. After you get the basic mechanics, then worry about adding players
+
+
 
 ## Objectives
 
-### Setup
-
-- First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, *you only need to install `app-app` once* :
-
-  ```sh
-  npm install -g app-app
-  ```
-
-  Also, set up hub to use `HTTPS` rather than `SSH` for repositories:
-
-  ```sh
-  git config --global hub.protocol https
-  ```
-
-- Open your Terminal and create and change into the project's directory:
-
-  ```sh
-  mkdir -p ~/training/week-1/day-1/hello-world
-  cd ~/training/week-1/day-1/hello-world
-  ```
-
-- Run the generator to create a boilerplate project:
-
-  ```sh
-  app-app --alpha --vscode
-  ```
-
-  Answer "Yes" to the questions about GitHub and Yarn.
-
-- Open the project folder in VS Code:
-
-  ```sh
-  code .
-  ```
-
-  Remember `.` is an alias for the current directory.
-
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
-
 ### Explorer Mode
 
-- [ ] this is a requirement
-
-
+- [ ] Display the questions and categories for 5 catgories in a Jeopardy style board (like this: https://lh3.googleusercontent.com/En2ljfur6ALCylFQ8cs6cG99TRvbH7sZDpl0gMsqsZXRk30FWJYcJjjedcW_WXcyw9PDcXVCyc1jSYU-KAn67w-udoY4gkeqqis8iuNc76AC-nxfO0no4FUPIFXW6jIOD55yJGgc) 
+- [ ]  When a user clickes on a question, hide the board, and display the question. and allow the user to the type in a answer
+- [ ]  If they get the answer correct, add it to a score
+- [ ]  After the question is asked, they shoudl no longer be able to click on that square
+- [ ]  After all the questions have been asked, the game should have a reset button that gets 5 new random categories
+- [ ]  It should look like a Jeopardy board, though i am not expecting anything crazy
+ 
 ### Adventure Mode
 
-- [ ] this is a requirement
+- [ ] Add player 2 and player 3
+- [ ] Add 3 random daily doubles
+- [ ] Add double Geopardy round
+- [ ] Add a final Geopardy round
 
-
-### Epic Mode
-
-- [ ] this is a requirement
 
 ## Turning In
 
@@ -91,4 +57,9 @@ Once you are completely, go to the issue on our `assignments` repository, leave 
 
 
 
-## Additional Resources
+## Tips and Tricks
+- Break down the problems, one at a time, do not try to do too much at one time
+- Remember, You can add properties to JavaScript Objects on the fly
+- `ng-show` and `ng-hide` are your friends 
+
+
