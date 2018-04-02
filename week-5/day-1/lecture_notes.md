@@ -1,15 +1,20 @@
 [TOPICS]
-- Topic A
-- Topic B
-- Topic C
-- Topic D
+- Intro to C#
 
 # Day 1
 
-## topic breakdown A
-## topic breakdown B
-## topic breakdown C
-## topic breakdown D
+- INtro to .NET
+    - CLR
+    - Framework vs Core
 
-
-    
+- Intro to VS
+- Compiled vs interpreted
+- basic C# Hello World
+- types and variables
+- lists and arrays
+- logic
+     if
+     while
+     for
+     foreach
+- Linq, lambda syntax
