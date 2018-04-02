@@ -1,8 +1,11 @@
 [TOPICS]
-- Topic A
-- Topic B
-- Topic C
-- Topic D
+- Objecst
+- Getters
+- Setters
+- Properties
+- Inheritance
+- Interfaces
+- Abstract 
 
 # Day 1
 
