@@ -1,61 +1,31 @@
-# Title
+# Morse Code Converter
 
-{description}
+Create a simple app that lets a user type in a phrase in english and print out the phrase in Morse Code
 
 ## Objectives
 
 ### Setup
+- [ ] download and use this csv https://raw.githubusercontent.com/mdewey/morse-code/master/morse.csv
 
-- First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, *you only need to install `app-app` once* :
-
-  ```sh
-  npm install -g app-app
-  ```
-
-  Also, set up hub to use `HTTPS` rather than `SSH` for repositories:
-
-  ```sh
-  git config --global hub.protocol https
-  ```
-
-- Open your Terminal and create and change into the project's directory:
-
-  ```sh
-  mkdir -p ~/training/week-1/day-1/hello-world
-  cd ~/training/week-1/day-1/hello-world
-  ```
-
-- Run the generator to create a boilerplate project:
-
-  ```sh
-  app-app --alpha --vscode
-  ```
-
-  Answer "Yes" to the questions about GitHub and Yarn.
-
-- Open the project folder in VS Code:
-
-  ```sh
-  code .
-  ```
-
-  Remember `.` is an alias for the current directory.
-
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
 
 ### Explorer Mode
 
-- [ ] this is a requirement
-
+- [ ] The program should read the conversion data from a file and build a `Dictionary` in memory to help in the conversion
+- [ ] As a user, I should be able to type in a phrase to convert. This should include letters and numbers
+- [ ] The Program should convert the text that the use typed in to Morse Code
+- [ ] The Program should display the converted text to the user
+- [ ] The Program should ask user if they have another word convert, if yes, then repeat the process
+ 
 
 ### Adventure Mode
 
-- [ ] this is a requirement
+- [ ] Save the User's past results and display them if the user asks
+- [ ] Allow the user to type in Morse Code and convert to English
 
 
-### Epic Mode
-
-- [ ] this is a requirement
+## Setup 
+- open `Visual Studio 2017` and create a new `console application` 
+- be sure to select `create git repo` and make sure it has a `.gitignore`
 
 ## Turning In
 
@@ -89,6 +59,7 @@ These steps will be followed for almost every assignment going forward. Once you
 Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
 
 
-
-
 ## Additional Resources
+
+- Bonus Video of me explaining Dictionaries and create a simple word count app.  https://www.youtube.com/watch?v=a2amPEI9AYM&index=28&t=0s&list=PLQohu2C4yKUugzokx9tOGVt9oamMMZBmR
+

@@ -8,6 +8,7 @@ Welcome to C#! The first thing you must practice is mastering what types are and
 
 ### Setup
 
+- Download here =>  https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15
 - open `Visual Studio 2017` and create a new `console application` 
 - be sure to select `create git repo` and make sure it has a `.gitignore`
 
@@ -36,7 +37,7 @@ Welcome to C#! The first thing you must practice is mastering what types are and
 
 ### Adventure Mode
 
-- [ ] Work more on Geopardy some more
+- [ ] Aftger we have chatted about it in class, Work more on Geopardy some more
 
 ### Epic Mode
 

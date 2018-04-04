@@ -1,61 +1,43 @@
-# Title
+# ATM Machine
 
-{description}
-
+Create a simple app that lets a user interact with their bank account. This will have relatively intense UI. Remember to try to separate out the logic from the UI using classes and methods. This program will keep track of the checkings and savings account.
+(NOTE: Don't worry about security yet)
 ## Objectives
-
-### Setup
-
-- First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, *you only need to install `app-app` once* :
-
-  ```sh
-  npm install -g app-app
-  ```
-
-  Also, set up hub to use `HTTPS` rather than `SSH` for repositories:
-
-  ```sh
-  git config --global hub.protocol https
-  ```
-
-- Open your Terminal and create and change into the project's directory:
-
-  ```sh
-  mkdir -p ~/training/week-1/day-1/hello-world
-  cd ~/training/week-1/day-1/hello-world
-  ```
-
-- Run the generator to create a boilerplate project:
-
-  ```sh
-  app-app --alpha --vscode
-  ```
-
-  Answer "Yes" to the questions about GitHub and Yarn.
-
-- Open the project folder in VS Code:
-
-  ```sh
-  code .
-  ```
-
-  Remember `.` is an alias for the current directory.
-
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
-
+- work with C# and practice program structure
 ### Explorer Mode
 
-- [ ] this is a requirement
+- [ ] the system assumes only 1 user
+- [ ] when the program starts, it will display the current balance for their checking  and savings account. If none exist, show 0. 
+- [ ] Ask to do one of the follow transactions 
+    - [ ] withdraw from savings, this should prompt the user to enter an amount to withdraw, then remove that amount. This should do some basic error handler (i.e, make sure that the value inputted is a number, that the user has enough funds)
+    - [ ] withdraw from checking, this should prompt the user to enter an amount to withdraw, then remove that amount. This should do some basic error handler (i.e, make sure that the value inputted is a number, that the user has enough funds)
+    - [ ] deposit to savings , this should prompt the user to add a an amount to this account, then add that amount. This should do some basic error handler (i.e, make sure that the value inputted is a number)
+    - [ ] deposit to checking, this should prompt the user to add a an amount to this account, then add that amount. This should do some basic error handler (i.e, make sure that the value inputted is a number)
+    - [ ] transfer money from savings to checking, this should prompt the user to enter an amount to transfer, then remove that amount. This should do some basic error handler (i.e, make sure that the value inputted is a number, that the user has enough funds) 
+    - [ ] transfer money from checking to savings, this should prompt the user to enter an amount to transfer, then remove that amount. This should do some basic error handler (i.e, make sure that the value inputted is a number, that the user has enough funds) 
+- [ ] the system should save the new amount to a file after every action
+- [ ] the system should load the current amounts when the program starts
+- [ ] the system should log all the transactions that occur to a file, these logs should have `what was done`, `the amount that moved` `when it happened` and `what accounts were affected` and other information you feel is useful
 
 
+ 
 ### Adventure Mode
 
-- [ ] this is a requirement
+- [ ] Add the ability to have multiple users. These users should not be able to see other users accounts totals.  Userss should have a user name and pin number. 
+- [ ] Add the ability to have more than 2 accounts. Create a unique account number for each account
+- [ ] A User should be able to close their account
+
 
 
 ### Epic Mode
+- [ ] Add interest rates that happen ever so often (For testing, I would start with every second)
+- [ ] A User can transfer a money to some one elses account, using either a username or account number
+- [ ] Encrypt the files so that only your program can read and write to them
 
-- [ ] this is a requirement
+
+## Setup 
+- open `Visual Studio 2017` and create a new `console application` 
+- be sure to select `create git repo` and make sure it has a `.gitignore`
 
 ## Turning In
 
@@ -88,7 +70,3 @@ These steps will be followed for almost every assignment going forward. Once you
 
 Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
 
-
-
-
-## Additional Resources
