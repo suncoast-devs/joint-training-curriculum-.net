@@ -1,8 +1,6 @@
 [TOPICS]
-- Topic A
-- Topic B
-- Topic C
-- Topic D
+- SQL Command
+
 
 # Day 1
 

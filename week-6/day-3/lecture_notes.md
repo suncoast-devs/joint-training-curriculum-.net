@@ -1,8 +1,11 @@
 [TOPICS]
-- Topic A
-- Topic B
-- Topic C
-- Topic D
+- FK
+- Data Normalization
+- Joins!
+    - Inner
+    - Outer
+    - Left/Right
+
 
 # Day 1
 
