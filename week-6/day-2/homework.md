@@ -1,61 +1,51 @@
 # Title
 
-{description}
+Get your feet wet with SQL and Databases. You will be creating 2 databases for me and writing some simple queries to gather from information. Use your best Judgement for data types the columns should be. 
 
 ## Objectives
+- Practice Creating, Quering and using SQL databases
+- Get your Local Dev set up. 
+
 
 ### Setup
 
-- First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, *you only need to install `app-app` once* :
-
-  ```sh
-  npm install -g app-app
-  ```
-
-  Also, set up hub to use `HTTPS` rather than `SSH` for repositories:
-
-  ```sh
-  git config --global hub.protocol https
-  ```
-
-- Open your Terminal and create and change into the project's directory:
-
-  ```sh
-  mkdir -p ~/training/week-1/day-1/hello-world
-  cd ~/training/week-1/day-1/hello-world
-  ```
-
-- Run the generator to create a boilerplate project:
-
-  ```sh
-  app-app --alpha --vscode
-  ```
-
-  Answer "Yes" to the questions about GitHub and Yarn.
-
-- Open the project folder in VS Code:
-
-  ```sh
-  code .
-  ```
-
-  Remember `.` is an alias for the current directory.
-
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
+- Download SQL Management Studio
+  - https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
+- Download SQL Express 2017
+  - https://www.microsoft.com/en-us/download/confirmation.aspx?id=55994
 
 ### Explorer Mode
 
-- [ ] this is a requirement
+- [ ] Create a database to store Movies
+  - [ ] There shoudl be a Movie table with the follow columns: 
+      - Id (PK)
+      - Title
+      - YearReleased
+      - Genre
+      - Tagline
+      - Rating
+  - [ ] Create a query that inserts a new Movie
+  - [ ] Create a query that Updates all Movies that were  Released in the year 1988 to have a rating of 10
+  - [ ] Create a query that Deletes all Movies that are titled "The Neverending Story"
+  - [ ] Create a query that finds all horror Movies
 
+- [ ] Create a Database that will store a log of Bank Transactions for an account
+  - [ ] This should a table for Transactions with the follow columns: 
+    - Id (PK)  
+    - Timestamp
+    - Action
+    - AccountNumber
+    - AmountChanged
+    - newAmount
+  - [ ] Create a query that finds all transaction from Today
+  - [ ] Create a query that finds the 10 mist recent transaction for a Given User
+  - [ ] Create a query that Inserts a new Item into the table 
+  - [ ] Create a query that counts all transactions for a Given Day and given day
 
+  
 ### Adventure Mode
 
-- [ ] this is a requirement
-
-
-### Epic Mode
-
-- [ ] this is a requirement
+- [ ] Using SQLCommand, Try to query your database from a C# program. Try to implement the logging from your bank App to log into the database instead of a file. This a preview for Thursday topic. 
 
 ## Turning In
 
@@ -77,18 +67,11 @@ These steps will be followed for almost every assignment going forward. Once you
   ```sh
   git push -u origin master
   ```
-
-  The `-u` option tells git we want to making pushing the `master` branch to `origin` the default, so next time, we can just type `git push`.
-
-- Now that our source code is up on GitHub, let's publish our page to [Surge](https://surge.sh). The command to do this has already been setup for you:
-
-  ```sh
-  yarn deploy
-  ```
-
-Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
-
-
+  
+For SQL only Assignments, Add `.sql` containing your queries to your repo. 
 
 
 ## Additional Resources
+- https://blog.hubspot.com/marketing/sql-tutorial-introduction
+- https://technet.microsoft.com/en-us/library/bb264565(v=sql.90).aspx
+

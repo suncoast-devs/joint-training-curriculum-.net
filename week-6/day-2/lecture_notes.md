@@ -1,15 +1,27 @@
 [TOPICS]
-- Topic A
-- Topic B
-- Topic C
-- Topic D
+- OO Review
+- Intro to SQL
 
-# Day 1
+# Day 2
 
-## topic breakdown A
-## topic breakdown B
-## topic breakdown C
-## topic breakdown D
+- Questions about inheritance & OOP design
+
+- INtro to SQL
+    - Tables 
+    - Normalization
+    - PK 
+    - datatypes
+    - queries
+        - insert
+        - select
+            - top
+            - count
+            - where
+        - updates
+            - where
+        - delete
+            - delete
+    
 
 
     
