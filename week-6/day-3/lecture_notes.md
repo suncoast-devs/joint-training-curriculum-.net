@@ -1,4 +1,5 @@
 [TOPICS]
+- Database Diagrams
 - FK
 - Data Normalization
 - Joins!

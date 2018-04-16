@@ -1,61 +1,64 @@
-# Title
+# Car Dealership
 
-{description}
+You are tasked with making a database diagram, database, and a few queries for a local car dealership
+
+The database will have _at least_ the following entities, and the following columns: 
+
+- CarDatas
+  - Make
+  - Model
+  - Year
+
+- Cars
+  - Color
+  - VIN Number
+  - Date Added to Lot
+  - AvailableForLease
+  - MilesDriven
+
+- Customers
+  - FullName
+  - Email
+  - PhoneNumber
+  - FavoredCustomer
+
+- Leases
+  - ExpirationDate
+  - TotalCost
+  - UpFrontPayment
+  - CostPerMonth
+
+
+The following relationships are true: 
+- A Lease has One Car
+- A Lease can have Many Customers
+- A Customer can have Many Leases
+- CarDatas have multiple cars
+
+
+*NOTE:* You need to add Primary Keys and Foreign Keys to the tables, as well as add any joining needed. 
+
 
 ## Objectives
+- Practice working with SSMS and Databases
+- Understanding and creating a Database Diagram
 
-### Setup
-
-- First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, *you only need to install `app-app` once* :
-
-  ```sh
-  npm install -g app-app
-  ```
-
-  Also, set up hub to use `HTTPS` rather than `SSH` for repositories:
-
-  ```sh
-  git config --global hub.protocol https
-  ```
-
-- Open your Terminal and create and change into the project's directory:
-
-  ```sh
-  mkdir -p ~/training/week-1/day-1/hello-world
-  cd ~/training/week-1/day-1/hello-world
-  ```
-
-- Run the generator to create a boilerplate project:
-
-  ```sh
-  app-app --alpha --vscode
-  ```
-
-  Answer "Yes" to the questions about GitHub and Yarn.
-
-- Open the project folder in VS Code:
-
-  ```sh
-  code .
-  ```
-
-  Remember `.` is an alias for the current directory.
-
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
 
 ### Explorer Mode
 
-- [ ] this is a requirement
+- [ ] Create a Database Diagram that illustrates the relationships. This should be a picture in the root of your repository
+- [ ] Create the Database. I want to see the Create Database script that includes all the tables and relationships
+- [ ] Create the following queries: 
+  - [ ] Find all non Expired Leases
+  - [ ] Select the email of all favored customers
+  - [ ] Show me the make, model, color, availability, and Miles Driven for all Cars
+  - [ ] All the emails of Customers that have expired leases
+  - [ ] The make and Model of the cars that are leased out
 
 
 ### Adventure Mode
 
-- [ ] this is a requirement
-
-
-### Epic Mode
-
-- [ ] this is a requirement
+- [ ] Using SQLCommand, Try to query your database from a C# program. Try to use this database from a console app. This a preview for Thursday topic. 
 
 ## Turning In
 
@@ -78,17 +81,10 @@ These steps will be followed for almost every assignment going forward. Once you
   git push -u origin master
   ```
 
-  The `-u` option tells git we want to making pushing the `master` branch to `origin` the default, so next time, we can just type `git push`.
+The files I am looking for are:
+  - A Script to recreate your database and tables
+  - A Script for each of the queries.
+   
 
-- Now that our source code is up on GitHub, let's publish our page to [Surge](https://surge.sh). The command to do this has already been setup for you:
+For SQL only Assignments, Add `.sql` containing your queries to your repo. 
 
-  ```sh
-  yarn deploy
-  ```
-
-Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
-
-
-
-
-## Additional Resources

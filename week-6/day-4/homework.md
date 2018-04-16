@@ -1,67 +1,74 @@
-# Title
+# University of PROforma
 
-{description}
+You are tasked with making a database diagram, database, and 2 console applications 
+
+The database will have _at least_ the following entities, and the following columns: 
+
+- Courses
+  - Number
+  - Level
+  - Name
+  - Room
+  - Start Time
+
+- Professors
+  - Name
+  - Title (Mr/Ms/Dr, etc...)
+  
+- Students
+  - FullName
+  - Email
+  - PhoneNumber
+  - Major
+
+The following relationships are true: 
+- Courses have at least one Professor
+- Students can enroll in course
+- Courses have many Students
+- Students belong to many Campuses
+
+
+*NOTE:* You need to add Primary Keys and Foreign Keys to the tables, as well as add any joining needed. 
+
 
 ## Objectives
+- Practice working with SSMS and Databases
+- Understanding and creating a Database Diagram
+- Working with User Input and C#
 
-### Setup
-
-- First, ensure you have the [`app-app` generator](https://github.com/tiy-tpa-fee/app-app) installed. We may have done this in class, *you only need to install `app-app` once* :
-
-  ```sh
-  npm install -g app-app
-  ```
-
-  Also, set up hub to use `HTTPS` rather than `SSH` for repositories:
-
-  ```sh
-  git config --global hub.protocol https
-  ```
-
-- Open your Terminal and create and change into the project's directory:
-
-  ```sh
-  mkdir -p ~/training/week-1/day-1/hello-world
-  cd ~/training/week-1/day-1/hello-world
-  ```
-
-- Run the generator to create a boilerplate project:
-
-  ```sh
-  app-app --alpha --vscode
-  ```
-
-  Answer "Yes" to the questions about GitHub and Yarn.
-
-- Open the project folder in VS Code:
-
-  ```sh
-  code .
-  ```
-
-  Remember `.` is an alias for the current directory.
-
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
 
 ### Explorer Mode
 
-- [ ] this is a requirement
+- [ ] Create a Database Diagram that illustrates the relationships. This should be a picture in the root of your repository
+- [ ] Create the Database. I want to see the Create Database script that includes all the tables and relationships
 
+- [ ] Create a "admin" Console app that allows a user to : 
+  - [ ] Add Professors
+  - [ ] Add Classes
+  - [ ] View who is enrolled in a class
+  - [ ] View all Classes, who is teaching them, and who is enrolled
+
+- [ ] Create a "student" app that allows a user a to enroll into a class. 
+  - [ ] As a user, I should be able to select a course, and type in my information, and be enrolled in that course
+  - [ ] Type in my name, and view what course I am enrolled in
 
 ### Adventure Mode
 
-- [ ] this is a requirement
+- [ ] Add Campuses to your data model as a "Parent" to all entities. Use your best judgement to define relationships
+- [ ] Update your data model to allow professors being apart of many campuses
+- [ ] Create a "Professors" console app that allows a professor to see who is enrolled in class
+- [ ] Add Semesters, and allow a student to select a semesters
+- [ ] Refactor your 2 console apps to be in the same solution, and re-use your database access layer 
 
 
 ### Epic Mode
-
-- [ ] this is a requirement
-
+- [ ] Add Student sign in (*DO NOT STORE PASSWORDS AS PLAIN TEXT*)
+ 
 ## Turning In
 
 Your homework will be assigned to you via `issues` on your `assignments` repository. Once you are
 
-These steps will be followed for almost every assignment going forward. Once you've completed at least _explorer_ mode and you're satisfied with your work, let's get it published. First let's get it up on GitHub.
+These steps will be followed for almost every assignment going forward. Once you've completed at` least _explorer_ mode and you're satisfied with your work, let's get it published. First let's get it up on GitHub.
 
 - First, let's add all our work to git, and ask it to commit it:
 
@@ -78,17 +85,15 @@ These steps will be followed for almost every assignment going forward. Once you
   git push -u origin master
   ```
 
-  The `-u` option tells git we want to making pushing the `master` branch to `origin` the default, so next time, we can just type `git push`.
-
-- Now that our source code is up on GitHub, let's publish our page to [Surge](https://surge.sh). The command to do this has already been setup for you:
-
-  ```sh
-  yarn deploy
-  ```
-
-Once you are completely, go to the issue on our `assignments` repository, leave the link the repo of your work, and close the issue. I will not know you are down until you close the issue. 
+Your repository, for explorer mode,  should have three folders: 
+- SQLScripts
+  - all your SQL scripts to create your database
+- AdminConsole
+  - the console app for the Admin app
+- StudentConsole
+  - the console app for the student app
 
 
 
-
-## Additional Resources
+### Additional Code Samples: 
+https://github.com/TIY-NET-Tampa/Lecture-Examples/tree/master/week-4/IntroToADONET/ConsoleApp1

@@ -1,9 +1,9 @@
-# Title
+# Welcome to SQL!
 
 Get your feet wet with SQL and Databases. You will be creating 2 databases for me and writing some simple queries to gather from information. Use your best Judgement for data types the columns should be. 
 
 ## Objectives
-- Practice Creating, Quering and using SQL databases
+- Practice Creating, Querying and using SQL databases
 - Get your Local Dev set up. 
 
 
@@ -67,7 +67,12 @@ These steps will be followed for almost every assignment going forward. Once you
   ```sh
   git push -u origin master
   ```
-  
+
+The files I am looking for are:
+  - A Script to recreate your database and tables
+  - A Script for each of the queries.
+   
+
 For SQL only Assignments, Add `.sql` containing your queries to your repo. 
 
 
