@@ -1,4 +1,4 @@
-# Movie API
+# Lets All Go to the Movies...
 
 You are tasked with taking the Movie DB you created and putting that into an API. This API should use the simple Movie Database that we created when we started Entity Framework. 
 
@@ -6,7 +6,7 @@ You are tasked with taking the Movie DB you created and putting that into an API
 
 ## Objectives
 - Practice Creating Simple APIs
-- Practice working with API Tools, such as POSTMAN
+- Practice working with API Tools, such as POSTMAN (https://www.getpostman.com/)
 
 ### Explorer Mode
 - [ ] Create the DBContext, Models, and Controllers in their own folders

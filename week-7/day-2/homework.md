@@ -21,7 +21,7 @@ Your database will need to store the following data:
         - FullName
         - Nickname
         - Number
-        - Position
+        - ThrowingArm
 
 
 ## Objectives
@@ -45,6 +45,7 @@ Your database will need to store the following data:
  
 
 #### Tips
+    - Create your Database Diagram First
     - feel free to create a few methods that add fake data into the database
     - Use SSMS to verify that the data you are entering is correct
     - when creating new items, take note on the relationships
@@ -74,5 +75,5 @@ Your homework will be assigned to you via `issues` on your `assignments` reposit
 ## Commands to consider
 -- `Install-Package EntityFramework`
 -- `Enable-Migrations`
--- `Add-Migrations CreatedTable`
+-- `Add-Migration CreatedTable`
 -- `Update-Database`

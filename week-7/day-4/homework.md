@@ -26,13 +26,13 @@ Author :( Who wrote the book)
   - Id
   - DisplayName
 
-CheckOutLogs (Log of all books that are checked out)
+CheckOutLedger (a ledger of all books that are checked out)
   - Id
   - BookId
   - Timestamp
-  - BookCopyId
   - EmailOfPerson
-    
+
+*NOTE* Foreign Keys have been left off on purpose. Add them where you need them.     
 
 
 ## Objectives
@@ -63,7 +63,7 @@ The library wants an API that enables:
 
 ## Turning In
 
-Your homework will be assigned to you via `issues` on your `assignments` repository. Once you are complete with your assignmnet, link the new repo here.
+Your homework will be assigned to you via `issues` on your `assignments` repository. Once you are complete with your assignment, link the new repo here.
 
 
 ## PRO Tips: 
@@ -71,3 +71,4 @@ Your homework will be assigned to you via `issues` on your `assignments` reposit
 - Plan. Plan. Plan. Before you create 1 line of code, design out what end points you have in your API and your Database should look like. This will give you a basic plan to follow as you go. 
 - KIS(S). Keep Is Simple (Stupid). Work on only 1 endpoint at a time, and focus on what you are doing
 - Data is awesome, but not the primary focus of this assignment. Only enter in a little data as possible. 
+- POSTMAN is your Friend
