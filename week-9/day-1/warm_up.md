@@ -1,3 +1,1 @@
-@channel Warm up!  https://news.ycombinator.com/newest
-
-Focus on recreating the layout first, then styling
+@channel Check out this website, http://www.stpete.org/ Recreate the layout structure using HTML and CSS, on your first pass, do not worry about styling, just layout of containers and content. Feel free to use bootstrap, or flexbox, or a combination of both. Once you have the desktop view, work on the mobile view, then work on the styling
