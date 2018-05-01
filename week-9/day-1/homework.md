@@ -51,12 +51,11 @@ The news stories should be stored in a database.
 ### Adventure Mode 
 - [ ] Let the user see all stories in a given category 
 - [ ] Add a location to each story and have the user be able to see what is happening around them
-- [ ] Add a up/down voting system 
 - [ ] Give your site a slick UI that is mobile friendly
 
 
 ### Epic Mode
-- [ ] Add User Accounts
+- [ ] Add a up/down voting system 
 
 
 ## Turning In

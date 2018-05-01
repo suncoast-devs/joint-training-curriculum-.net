@@ -1,42 +1,22 @@
-# Bootstrap me in Capt'n 
+# Who are you? 
 
-Welcome to `Try It Yourself` (TIY) Sports, the top sport tracking website for people who want to find sports to do try them selves. 
-
-However, before we can get started implementing our features we need to validate our visual design.
-
-Our illustrious designer, B. Strap, has provided us with the following mockups for what the site should look like in both mobile and desktop forms. We also have the original image assets used in the mockup.
-
-Our task is to reproduce this design!
-
-## Desktop view
-
-![desktop view](https://i.imgur.com/gK8Uanp.png)
-
-## Mobile view
-
-![mobile view](https://i.imgur.com/25LDfsz.png)
-
-
-# Deliverables
-- a github url with the all the files need to run the site
+Today we talked about authentication. Tonight, follow along with this tutorial to learn and understand token based authenication with AngularJS 
 
 # Explorer
 
-- Use [bootstrap](http://getbootstrap.com/docs/3.3/) to reproduce the design
-- You do not need to add *any* additional CSS to achieve this design
-- Remove all the old content from the index page and place your new HTML there
-- Don't worry about making the data dynamic for this level. 
-- Do not vary from the design as provided, add nothing, and leave nothing out. Your design doesn't need to be pixel perfect, but with bootstrap it shouldn't be far off.
+- [ ] Follow Part 1 and 2 of this tutorial http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/
+- [ ] Code along with it and submit that as your solution
 
+PROTIP: 
+- Do not move onto the next step until the current step works. 
+- Ask Plenty of questions. There will be words that are unfamiliar to you
 
 # Adventure
 
-- Using AngularJS and and API. Create an API that returns hard coded values for the site. Every item that could be dynamic should be represented in this view model
+- [ ] Round off your group project from last night. 
+- [ ] Auth Authentication to your news site. This can be done with your groups or not, your choice.
+
 
 # Epic
- - Create a Database to support this site using EF and  Make the HomePage Actually Dynamic
+- [ ] Add OAuth to your site news site and allow the users to log in with Google 
 
-
-# Bonus Level
-
-- Keeping the same design feel, add more to the site. What other information could be added and how could we utilize bootstrap components to layout and style those.

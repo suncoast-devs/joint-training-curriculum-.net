@@ -1,5 +1,3 @@
-# the other side of Hacker News
-- Now that you have the UI ready for `hacker News` Create a  DB Schema (tables, columns, and relationships)
+# More HTML
 
-- feel free to work in groups
-- If you get the schema complete and you are happy with it, try ti implement your schema in Entity Framework 
+Continue to work on the St Pete website. Feel free to ask each and cooperate with each other on spots that are complex. 
