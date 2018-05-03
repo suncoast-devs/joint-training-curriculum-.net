@@ -1,3 +1,4 @@
-# The numbers in the arrays go round & round
+@channel 
 
-https://www.hackerrank.com/challenges/array-left-rotation/problem
+#Take the throne
+https://www.hackerrank.com/challenges/game-of-thrones/problem

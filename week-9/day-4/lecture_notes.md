@@ -1,4 +1,1 @@
-angular practice: 
-
-routing
-intro to directives
+Practice Practice Practice

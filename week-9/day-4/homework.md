@@ -1,66 +1,55 @@
-# So, What do you wanna do tonight?
+# Hello, World!
 
-The City of Acme is looking for page to get to show all the local events. This page should be mimic the functionality of meetup.com. Be sure to look at the requirements for each level and not to get ahead of yourself.
-
-## Objectives
-- practice creating Web API 2 endpoints
-- Practice angularJS Routing
-- Use seed data to handle populating your database
-
-## Rough Data Model to get you started
-*NOTE*: The Foreign Keys have been left off
-
-City
-    - Id
-    - Name
-
-Event
-    - Id
-    - Title
-    - Tagline
-    - Long Description
-    - Address
-    - City
-    - State
-    - Zip
-    - Age Limit
-    - Price
-    - DateHappening
-    
-Attendee 
-    - Id
-    - Email
-
-_Relationships_
-a City has many Events
-a Event has many Attendees
-a Attendee can go to many Events
+As a developer, learning is a life long skill that you wil continue to hone. During the last 9 weeks, you have learned many topics, but that is just the tip of the iceberg. For this project I want you to select a topic in technology and give a short presentation about it. 
 
 
-## Explorer
-- [ ] Create the home page that shows a list of events that happening in PROburg. This show include only the event title, short description, date and location for the event
-- [ ] A User should be able to search for events based on title, DateHappening, Age Limit
-- [ ] A user should be able to click an event and see all details about that event on a new page. This should display everythign about that Event, including all the details and all the Attendees that have registered
-- [ ] A user should be able to be able to sign up for an event,on the event detail page,  by providing only an email. This email is required
+## Explorer Mode
 
-## Adventure 
-- [ ] Implement a wait list if an event gets too many attendees
-- [ ] Using Google Maps Web SDk, add a latitude and longitude to the Model and show a location on the map, allow to user to find events near them
-- [ ] Add a `EventHost` table, and allow users to search based on event host
-- [ ] Allow users to add a new event
-- [ ] Add a keyword system and allow users to search by keyword
-- 
-## Epic
-- [ ] Add User Authentication using OAuth. This might be easier to recreate the project and add authentication from the templates
-- [ ] Implement more features from meetup.com
+- [ ] Select a topic, get it approved by your instructor,  and research the topic to understand it
+- [ ] Give a 5-10 minutes presentation about that piece of technology that includes: 
+    - What is the technology
+    - What problem does the technology Solved
+    - Why makes the technology unique
+- [ ] Include a Hello World Implementation of the app. 
+- [ ] Be able to answer some questions about from the group 
 
 
-## PRO-TIPS
-- Remember, only Explorer mode is required. Do not borrow trouble by trying to do more.
-- I highly suggest planning. Before writing a line of code, plan out (at least):  
-    1) database schema
-    2) API Endpoints 
-    3) Angular URLs
-    4) The UI for Explorer mode
-- Git is your friend, commit and push often.
-- Work on one area of the site at a time, small chunks are easier to keep in your head at a time.
+*DELIVERABLES:*
+- a "Hello World App" demonstrating the technology in a git repo
+
+*NOTES*
+- A power point is not needed. As long as you can demo the code and get across the idea of the technology
+- 5 mins is not a long time when talking about technology. 
+
+## Adventure
+- Build a non-trivial App that uses your technology. For example, if you choose React, a simple Hello, World app displays the current time, but a non-trivial app can talk to the weather API and display the current weather
+
+## Explorer. 
+- Keep on Building more and more advance features 
+
+
+### Topic Ideas
+*Not extensive, and not limited to* 
+
+- AWS
+- Azure
+- Serverless
+- GraphQL
+- Unity
+- Xamarin
+- F#
+- Typescript
+- Chat Bot
+- Vue.JS
+- React.JS
+- Angular
+- Ruby
+- Python
+- Mongo DB
+- A Specific HTML5 Feature
+- JS Canvas
+- Bootstrap 4
+- Foundation 
+- Webpack
+- Raspberry Pi
+- Arduino 

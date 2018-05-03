@@ -1,28 +1,40 @@
-# Enter the Blag-o-sphere
+# Online Phone Book
 
-For today, we are going to blogging and practicing everythign we have talk about. 
+You are tasked with building a Web Site that shows a list of contact information of your team to only Authenticated Users
 
+A Contact should have: 
+- Name
+- Address
+- Email
+- Phone
+- Preferred Contact Method
+
+
+*NOTE* this will be different from the User Object. 
 
 ## Objectives
-- Practice talking like a developer
-- Revisit old assignments
+- Practice using Authentication
+- Practice being a Full Stack Developer
+- practice working in groups.
 
+## The groups: 
+- James and Aaron
+- Chris and Wes
+- Charlie and Britney
+- Kate and Tirzah
 
 ## Explorer
-- [ ] Blog time. Choose a prompt from the following list
-    - Using your own experience as inspiration, create a short list of `survival tricks` for a someone entering a boot camp 
-    - Pick 1 topic that we have learned and create a blog post explaining it to a new developer
-    - Blog about a struggle that you have encountered and overcame during your tenure here so far. 
-    - Pick a new technology that we haven't hit yet (or won't) and create a intro blog for that. 
-
-- [ ] Algorithm Practice -- submit a `gist` of your solution for https://www.codewars.com/kata/form-the-minimum in C# or JavaScript
+- [ ] Create an API that allows a user to sign up
+- [ ] Create an API that allows a user to log in
+- [ ] Create an API that allows only an Authorized User to see the list of contacts, plus their data
+- [ ] Create an angular app that allows the users to access all the routes above
+ 
 
 ## Adventure
-- [ ] Get caught up on any outstanding homework. 
-- [ ] Go back and refactor an old project. 
-- [ ] Pick an old AngularJS project that used an API, create an API for that project. Hook up your project to that API
-- [ ] Submit a `gist` of the above kata in the other language 
+- [ ] Add an API that allows a user to create a new contact
+- [ ] Update this to be a multi-page SPA app (using angular routing)
+
 
 ## Epic
-- [ ] Further our Hacker News model but creating an API that returns the data for the front page. This includes creating models that produce a valid database. 
-- [ ] Create an angular app that consumes and displays the data using Bootstrap to format it. 
+- [ ] Add an option to share a contact using a unique url 
+    - this requires each contact to have their own page
