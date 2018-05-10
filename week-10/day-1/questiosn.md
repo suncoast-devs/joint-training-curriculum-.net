@@ -10,7 +10,7 @@ LINQ/EF
 
 Software design principles 
     - SOLID, 
-    separation of concerns
+    - separation of concerns
     - MVC
     - separating Logic
     - how front end and back end rely on each other and work together(the magic inbetween))
@@ -30,4 +30,4 @@ anything that might help us on our "grid"
 X do we get that crappy magnifying glass on the page?  What's the "best" way to deal with sizes in a situation like this?
 X Something like a JSON type in Products table/list? 
 X How can I get related or suggested products to show?
-- Would that be a case of using something like solr?
+X Would that be a case of using something like solr?
